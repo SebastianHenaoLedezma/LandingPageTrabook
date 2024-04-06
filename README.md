@@ -9,3 +9,5 @@ Workshop de html, css y boobstrap!
 - Sebastian Henao
 - Nathalia Acosta
 - Jorge Arley Ospina
+
+![Equipo](assets/img/demo.png)
