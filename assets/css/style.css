@@ -2,6 +2,7 @@
     /* Variable de colores */
     --primary--color:#FA7436;
     --secondary--color: #FEFCFB;
+    --text-primary-color: #222222;
     --text-description-color:#666666;
     --background-shadow:#FD8D3A;
     --background-cards-color:#F7F8FC;
@@ -25,14 +26,111 @@ a {
 
 ul, ol {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 p, h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
-  
 
 /* Header */
+header{
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+}
+
+.brand-container{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.brand-container h1{
+    font-family: var(--fuente-volkhov);
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--text-primary-color);
+}
+
+.brand-container img{
+    height: 25px;
+}
+
+.nav-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-header ul{
+    display: grid;
+    width: 100%;
+    justify-items: flex-start;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.nav-header ul li{
+    padding-left: 30px;
+}
+
+.nav-header a{
+    font-family: var(--fuente-poppins);
+    font-size: 16px;
+    font-weight: normal;
+    color: var(--text-primary-color);
+}
+.nav-header a:hover{
+    color: var(--background-shadow);
+}
+
+.header-buttons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1em;
+}
+
+.header-buttons a{
+    font-family: var(--fuente-poppins);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn{
+    padding: 15px 45px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    text-align: center;
+}
+
+.login {
+    line-height: 24px;
+    color: var(--background-shadow);
+    transition: transform .2s;
+}
+  
+.singUp {
+    line-height: 24px;
+    white-space: nowrap;
+    color: var(--secondary--color);
+    background: var(--primary--color);
+    box-shadow: 0px 0px 20px -3px var(--background-shadow);
+}
+
+.login:hover{
+    border: 1px solid var(--background-shadow);
+    text-shadow: 0px 0px 12px var(--background-shadow);
+}
+
+.singUp:hover{
+    border: 1px solid var(--background-shadow);
+    background-color: var(--secondary--color);
+    color: var(--background-shadow);
+    text-shadow: 0px 0px 12px var(--background-shadow);
+}
 
 /* Contenido principal */
 
