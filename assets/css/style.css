@@ -244,6 +244,85 @@ header{
 }
 
 /* Things you need to do */
+.things-to-do{
+    background-color: var(--background-cards-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 100px;
+}
+.planes{
+    position: absolute;
+    top: 25%;
+    right: 15%;
+    transform: translateY(-50%);
+}
+
+.text{
+    text-align: center;
+    z-index: 100;
+}
+
+.text h3{
+    font-family: var(--fuente-volkhov);
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.text h3 span{
+    color: var(--primary--color);
+}
+
+.text p{
+    max-width: 500px;
+    font-family: var(--fuente-poppins);
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--text-description-color);
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 50px;
+    gap: 2em;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    font-family: var(--fuente-poppins);
+    border-radius: 15px;
+    padding: 30px;
+    gap: 2em;
+}
+.card1{
+    background-image: url(../img/card-to-do/fondo-1.svg);
+}
+.card2{
+    background-image: url(../img/card-to-do/fondo-2.svg);
+}
+.card3{
+    background-image: url(../img/card-to-do/fondo-3.svg);
+}
+
+.card img{
+    width: 40px;
+}
+
+.card h4{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.card span{
+    color: var(--text-description-color);
+    font-size: 16px;
+    font-weight: 400;
+}
 
 /* Exclusive deals & discounts */
 
