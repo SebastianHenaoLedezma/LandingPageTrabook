@@ -67,14 +67,11 @@ header{
 }
 
 .nav-header ul{
-    display: grid;
+    display: flex;
+    justify-content: center;
     width: 100%;
     justify-items: flex-start;
-    grid-template-columns: repeat(5, 1fr);
-}
-
-.nav-header ul li{
-    padding-left: 30px;
+    gap: 4em;
 }
 
 .nav-header a{
