@@ -18,6 +18,7 @@ body {
     max-width: 1300px;
     margin: 0 auto;
     padding: 0 20px;
+    background-color: var(--secondary--color);
 }
 
 a {
@@ -133,6 +134,114 @@ header{
 }
 
 /* Contenido principal */
+.main-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 200px;
+}
+
+.content-wrapper{
+    display: grid;
+    grid-template-rows: 2fr 1fr 0.5fr;
+    align-items: center;
+}
+
+.content-wrapper h2{
+    font-family: var(--fuente-volkhov);
+    font-size: 3.5em;
+    font-weight: bold;
+}
+.content-wrapper h2 span{
+    color: var(--primary--color);
+}
+
+.content-wrapper p{
+    font-family: var(--fuente-poppins);
+    color: var(--text-description-color);
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.discover-btn{
+    font-family: var(--fuente-poppins);
+    line-height: 24px;
+    margin-left: 2em;
+    white-space: nowrap;
+    color: var(--secondary--color);
+    background: var(--primary--color);
+    box-shadow: 0px 0px 20px -3px var(--background-shadow);
+}
+
+.discover-btn:hover{
+    border: 1px solid var(--background-shadow);
+    background-color: var(--secondary--color);
+    color: var(--background-shadow);
+    text-shadow: 0px 0px 12px var(--background-shadow);
+}
+
+.image-wrapper{
+    width: 700px;
+    height: auto;
+}
+
+.info-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+.info-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    border-radius: 10px;
+    font-family: var(--fuente-poppins);
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.1);
+    gap: 3em;
+}
+
+.info-item h3{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.arrow-down {
+    display: inline-block;
+    width: 15px; 
+    height: 20px;
+    background-image: url('../img/main-content/flecha.png');
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    margin-left: 5px;
+    margin-bottom: -10px;
+}
+
+.info-item p{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.info-btn-container{
+    cursor: pointer;
+    background: var(--primary--color);
+    box-shadow: 0px 0px 20px -3px var(--background-shadow);
+}
+.info-btn-container:hover{
+    border: 1px solid var(--background-shadow);
+    background-color: var(--secondary--color);
+}
+
+.info-btn-container:hover .explore-btn{
+    color: var(--background-shadow);
+    text-shadow: 0px 0px 12px var(--background-shadow);
+}
+
+.explore-btn{
+    color: var(--secondary--color);
+}
 
 /* Things you need to do */
 
