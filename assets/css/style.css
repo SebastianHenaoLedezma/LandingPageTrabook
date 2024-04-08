@@ -1,3 +1,17 @@
+:root {
+    /* Variable de colores */
+    --primary--color:#FA7436;
+    --secondary--color: #FEFCFB;
+    --text-description-color:#666666;
+    --background-shadow:#FD8D3A;
+    --background-cards-color:#F7F8FC;
+    --description-user-color: #444444;
+  
+    /* Variable de Fuentes */
+    --fuente-volkhov: 'Volkhov', serif;
+    --fuente-poppins: 'Poppins', sans-serif;
+}
+
 /* Header */
 
 /* Contenido principal */
