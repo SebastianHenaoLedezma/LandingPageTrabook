@@ -327,6 +327,61 @@ header{
 /* Best vacation plan */
 
 /* What people say about us */
+.testimonials{
+    background-color: var(--background-cards-color);
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 100px;
+}
+
+.testimonials_cards{
+    display: grid;
+    width: 50%;
+    margin-top: 50px;
+    gap: 2em;
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.1);
+}
+
+.test_card{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    font-family: var(--fuente-poppins);
+    border-radius: 15px;
+    padding: 30px;
+    gap: 1em;
+}
+.test_card img{
+    width: 50px;
+    margin-top: -50px;
+    margin-left: -50px;
+    border-radius: 50%;
+}
+.tes_title{
+    z-index: 100;
+}
+
+.tes_title h3{
+    font-family: var(--fuente-volkhov);
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.tes_title h3 span{
+    color: var(--primary--color);
+}
+
+.tes_title p{
+    max-width: 500px;
+    font-family: var(--fuente-poppins);
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--text-description-color);
+}
+
+
 
 /* Get update with latest blog */
 
