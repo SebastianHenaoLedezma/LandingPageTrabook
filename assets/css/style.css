@@ -120,6 +120,7 @@ header{
 
 .login:hover{
     border: 1px solid var(--background-shadow);
+    color: var(--background-shadow);
     text-shadow: 0px 0px 12px var(--background-shadow);
 }
 
