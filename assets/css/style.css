@@ -275,7 +275,7 @@ header{
 }
 
 .text p{
-    max-width: 500px;
+    /* max-width: 500px; */
     font-family: var(--fuente-poppins);
     font-size: 18px;
     font-weight: 400;
@@ -326,6 +326,16 @@ header{
 /* Exclusive deals & discounts */
 
 /* Best vacation plan */
+
+.nameCity {
+    margin-right: 70px;
+    gap: 70px
+}
+
+.priceTicket {
+    padding-left: 30px;
+}
+
 
 /* What people say about us */
 .testimonials{
@@ -382,9 +392,218 @@ header{
     color: var(--text-description-color);
 }
 
+/* Exclusive deals */
+
+.titleAndSubtitleContainer {
+    margin-top: 50px
+}
+
+.subtitleDiscounts {
+    height: 64px;
+    top: 1921px;
+    left: 758px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.madrid {
+    padding-right: 20px;
+}
+
+.containerRaiting {
+    padding-right: 2px;
+}
 
 
+.custom-image {
+    margin-bottom: 20px; /* Margen inferior para evitar que se entrecorte la información */
+    width: 100%; /* Ajuste de ancho al 100% */
+    height: auto; /* Altura automática */
+    object-fit: cover; /* Ajuste de la imagen para cubrir completamente el contenedor */
+}
+
+.gray-text {
+    color: gray;
+}
+
+.cityContainer {
+    gap: 5px; /* Separación entre columnas */
+}
+
+.icon {
+    margin-bottom: 2px; /* Separación entre íconos y texto */
+}
+
+.rating {
+    margin-right: 2px; /* Separación entre rating e ícono */
+}
+
+.price-container {
+    width: 40px;
+    height: 28px;
+    top: 2415px;
+    left: 591px;
+    gap: 5px;
+    border-radius: 8px;
+    opacity: 0px;
+    background-color: #FFE7DB; /* Añadido el background */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Alinear los elementos al extremo derecho */
+}
+
+.price {
+    display: block;
+    color: #FA7436;
+    margin-right: 3px; /* Hacer que las cifras se muestren en líneas separadas */
+}
+
+.old-price {
+    text-decoration: line-through; /* Agregado para tachar el precio antiguo */
+    color: gray; /* Color gris para el precio antiguo */
+}
+
+.containerCityDestination {
+    gap: 5px;
+}
+
+.Cities-container {
+    border: 2px solid #66666614;
+    border-radius: 8px;
+    background-color: #FEFCFB;
+
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.roundButton {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid transparent;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grayButton {
+    border-color: #ccc;
+}
+
+.orangeButton {
+    border-color: orange;
+}
+
+.arrowLeft,
+.arrowRight {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+
+.arrowLeft {
+    border-right: 10px solid black;
+}
+
+.arrowRight {
+    border-left: 10px solid #fff;
+}
+
+/* Best Vacation Plans */
+
+.vacation-plan {
+    margin-top: 100px;
+}
+
+.cityVacationPlan {
+    display: grid;
+    grid-template-columns: auto;
+    height: 447px;
+    width: 370px;
+    gap: 10px;
+    border-radius: 20px;
+    margin-bottom: 70px;
+    background-color: #FFFFFF;
+    border: 2px #66666614;
+}
+
+.cityImage {
+    width: 369px;
+    height: 327px;
+    border-radius: 16px;
+}
+
+.infoGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.infoRow {
+    display: flex;
+    align-items: center;
+}
+
+.cityName {
+    margin-right: auto;
+}
+
+.cityPrice {
+    margin-left: auto;
+}
+
+.iconContainer {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    width: 12.57px;
+    height: 16px;
+}
+
+.iconText {
+    margin-left: 2px;
+}
+
+.infoRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     /* Alinear al extremo izquierdo y derecho */
+}
+
+.iconContainer:first-child {
+    margin-left: 10px; /* Restaurar margen izquierdo predeterminado */
+}
+
+.iconContainer:last-child {
+    margin-left: 10px; /* Alinear al extremo derecho */
+    
+}
+
+.officialPrice {
+    color: #FA7436;
+    font-weight:bold;
+}
 /* Get update with latest blog */
+
+.blogTitle {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.blogSubtitle {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #999999;
+}
 
 /* Subscribe */
 
