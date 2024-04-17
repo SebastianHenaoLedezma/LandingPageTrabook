@@ -374,7 +374,7 @@ header{
     padding: 30px;
     gap: 1em;
     position: absolute;
-    content: '<p>manada de idiotas</p>';
+    content: '';
     left: 90px;
     box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.1);
     z-index: -1;
@@ -415,6 +415,24 @@ header{
     font-size: 18px;
     font-weight: 400;
     color: var(--text-description-color);
+}
+
+.btn-Testimonial-left {
+    height: 40px;
+    width: 40px;
+    border: none;
+    background-color: var(--secondary--color);
+    border: 1px solid var(--text-description-color);
+    border-radius: 50%;
+}
+
+.btn-Testimonial-right {
+    height: 40px;
+    width: 40px;
+    border: none;
+    background-color: var(--primary--color);
+    border: 1px solid var(--primary--color);
+    border-radius: 50%;
 }
 
 /* Exclusive deals */
@@ -647,7 +665,7 @@ header{
     font-family: var(--fuente-volkhov);
     font-size: 54px;
     font-weight: bold;
-    color: white;
+    color: var(--secondary--color);
     margin-bottom: 20px;
 }
 .btn-subs {
@@ -658,3 +676,8 @@ header{
 }
 
 /* footer */
+.subsTrabook {
+    font-family: var(--fuente-volkhov);
+    font-size: 24px;
+    font-weight: 700;
+}
