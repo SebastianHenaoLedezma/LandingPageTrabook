@@ -275,7 +275,7 @@ header{
 }
 
 .text p{
-    /* max-width: 500px; */
+    max-width: 500px;
     font-family: var(--fuente-poppins);
     font-size: 18px;
     font-weight: 400;
@@ -438,7 +438,10 @@ header{
 /* Exclusive deals */
 
 .titleAndSubtitleContainer {
-    margin-top: 50px
+    display: grid;
+    justify-items: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 .subtitleDiscounts {
@@ -632,7 +635,7 @@ header{
 }
 
 .officialPrice {
-    color: #FA7436;
+    color: var(--primary--color);
     font-weight:bold;
 }
 /* Get update with latest blog */
