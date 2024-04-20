@@ -260,6 +260,8 @@ header{
 
 .text{
     text-align: center;
+    display: grid;
+    justify-items: center;
     z-index: 100;
 }
 
